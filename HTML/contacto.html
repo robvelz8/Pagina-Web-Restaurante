@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/contacto.css">
+    <script src="../JS/log-in.js"></script>
+    <script src="../JS/contacto.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="banner">
+            <div class="container-nav">
+                <div class="container-logo">
+                    <a href="../HTML/index.html"><img src="../ASSETS/IMGs/logo.png" class="logo"></a>
+                </div>
+                <div class="container-menu">
+                    <ul class="lista">
+                        <li class="sections">
+                            <button class="animated-button">
+                                <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                                <span class="text"><a href="../HTML/productos.html" class="btn-nav-link">VER CARTA</a></span>
+                                <span class="circle"></span>
+                                <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="sections">
+                            <button class="animated-button">
+                                <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                                <span class="text"><a href="../HTML/log-in.html" class="btn-nav-link">INICIAR SESIÓN</a></span>
+                                <span class="circle"></span>
+                                <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="menu">
+                            <button class="btn-menu">
+                                <span class="icon">
+                                    <svg viewBox="0 0 175 80" width="40" height="40">
+                                        <rect width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                                        <rect y="30" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                                        <rect y="60" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                                    </svg>
+                                </span>
+                                <span class="text">MENU</span>
+                            </button>
+                            <div class="menu-options"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <video autoplay muted loop>
+            <source src="../ASSETS/VIDEOS/background.mp4" type="video/mp4">
+        </video>
+        <section>
+            <form class="container" action="https://formspree.io/f/mleqkolo" id="formulario" method="POST">
+                <div class="card">
+                    <a class="signup">Contacto</a>
+                    <div class="inputBox1">
+                        <input type="text" name="text" id="email" required="required">
+                        <span class="user">Email</span>
+                    </div>
+        
+                    <div class="inputBox">
+                        <input type="text" name="text" id="nombre" required="required">
+                        <span>Nombre</span>
+                    </div>
+        
+                    <div class="inputBox">
+                        <input type="text" name="text" id="mensaje" required="required">
+                        <span>Mensaje</span>
+                    </div>
+                    <button class="enter" id="enviar" type="submit">Enviar mensaje</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

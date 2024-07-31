@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carta</title>
+        <link rel="stylesheet" href="../CSS/productos.css">
+        <script src="../JS/productos.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="banner">
+                <div class="container-nav">
+                    <div class="container-logo">
+                        <a href="../HTML/index.html"><img src="../ASSETS/IMGs/logo.png" class="logo"></a>
+                    </div>
+                    <div class="container-menu">
+                        <ul class="lista">
+                            <li class="sections">
+                                <button class="animated-button">
+                                    <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                                      ></path>
+                                    </svg>
+                                    <span class="text"><a href="#" class="btn-nav-link">IR A PRODUCTO</a></span>
+                                    <span class="circle"></span>
+                                    <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                                      ></path>
+                                    </svg>
+                                  </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <video autoplay muted loop>
+                <source src="../ASSETS/VIDEOS/background.mp4" type="video/mp4">
+            </video>
+            <div class="container-cards">
+                <div id="card1">
+                    <img src="../ASSETS/IMGs/croquetas.jfif">
+                    <div id="desc">
+                        <h2>Croquetas metálicas</h2>
+                        <h3>50g vaca rubia gallega, aceite de coche y toques de gasolina.</h3>
+                        <p>
+                            Disfruta de una experiencia futurista con nuestras croquetas elaboradas con 50g de la exquisita vaca rubia gallega, fritas en aceite de coche y con sutiles toques de gasolina que te transportarán a una nueva dimensión de sabor.
+                        </p>
+                        <button id="popupBtn" onclick="crearPopUp1()"> <span class="box">MÁS INFO</span></button>
+                    </div>
+                </div>
+                <div id="card2">
+                    <img src="../ASSETS/IMGs/empanadas.jfif">
+                    <div id="desc">
+                        <h2>Empanadas Holográficas</h2>
+                        <h3>Un servidor que recrea unas empanadas a su imagen y semejanza</h3>
+                        <p>
+                            La vanguardia tecnológica en tu plato: un servidor especialmente programado recrea empanadas perfectas a su imagen y semejanza, 
+                            ofreciendo una delicia visual y gustativa sin igual.
+                        </p>
+                        <button id="popupBtn" onclick="crearPopUp2()"> <span class="box">MÁS INFO</span></button>
+                    </div>
+                </div>
+                <div id="card3">
+                    <img src="../ASSETS/IMGs/apocalipcheese.jfif">
+                    <div id="desc">
+                        <h2>Apocalipcheese</h2>
+                        <h3>100g de jinete del apocalipsis, guindillas de mordor y pan de Namek.</h3>
+                        <p>
+                            Adéntrate en el sabor del fin del mundo con 100g de jinete del apocalipsis, 
+                            guindillas de Mordor y pan de Namek. 
+                            Una explosión de sabores que te hará sentir invencible.
+                        </p>
+                        <button id="popupBtn" onclick="crearPopUp3()"> <span class="box">MÁS INFO</span></button>
+                    </div>
+                </div>
+                <div id="card4">
+                    <img src="../ASSETS/IMGs/solomillo-whisky.jfif">
+                    <div id="desc">
+                        <h2>Acero al whisky</h2>
+                        <h3>200g de Solomillo al whisky con toques de acero vikingo</h3>
+                        <p>
+                            Una fusión única de fuerza y sabor con 200g de solomillo al whisky, 
+                            realzado con toques de acero vikingo. 
+                            Perfecto para los paladares más atrevidos.
+                        </p>
+                        <button id="popupBtn" onclick="crearPopUp4()"> <span class="box">MÁS INFO</span></button>
+                    </div>
+                </div>
+                <div id="card5">
+                    <img src="../ASSETS/IMGs/pulpo a la atlántida.jfif">
+                    <div id="desc">
+                        <h2>Pulpo a la atlántida</h2>
+                        <h3>Pulpo completo procedente de la Atlántida.</h3>
+                        <p>
+                            Un manjar de las profundidades, 
+                            con un pulpo completo procedente de la mítica Atlántida. 
+                            Sumérgete en esta experiencia oceánica y descubre sabores legendarios.
+                        </p>
+                        <button id="popupBtn" onclick="crearPopUp5()"> <span class="box">MÁS INFO</span></button>
+                    </div>
+                </div>
+                <div id="card6">
+                    <img src="../ASSETS/IMGs/filete-espacial.jfif">
+                    <div id="desc">
+                        <h2>Filete de pollo espacial</h2>
+                        <h3>Pollo de Júpiter, salsa de nebulosa, patatas asteroidales.</h3>
+                        <p>
+                            Explora lo desconocido con nuestro filete de pollo espacial, 
+                            marinado en salsa de nebulosa, 
+                            acompañado de crujientes asteroides de patata y espolvoreado con polvo de luna. 
+                            Un viaje culinario que te llevará más allá de las estrellas.
+                        </p>
+                        <button id="popupBtn" onclick="crearPopUp6()"> <span class="box">MÁS INFO</span></button>
+                    </div>
+                </div>
+                <div id="card7">
+                    <img src="../ASSETS/IMGs/tarta-queso-cosmico.jfif">
+                    <div id="desc">
+                        <h2>Tarta de queso cósmico</h2>
+                        <h3>100g de queso cheddar con polvo estelar</h3>
+                        <p>
+                            Déjate llevar por la cremosidad de 100g de queso cheddar combinados con polvo estelar, 
+                            creando una tarta de queso que brilla con luz propia.
+                        </p>
+                        <button id="popupBtn" onclick="crearPopUp7()"> <span class="box">MÁS INFO</span></button>
+                    </div>
+                </div>
+                <div id="card8">
+                    <img src="../ASSETS/IMGs/soufflé-nebulosa.jfif">
+                    <div id="desc">
+                        <h2>Soufflé de nebulosa</h2>
+                        <h3>100mg de polvo de estrellas comestible, esencia de agujero negro y cristales de energía cuántica</h3>
+                        <p>
+                            Un postre etéreo hecho con 100mg de polvo de estrellas comestible, 
+                            esencia de agujero negro y cristales de energía cuántica. 
+                            Cada bocado es una explosión de sabores celestiales.
+                        </p>
+                        <button id="popupBtn" onclick="crearPopUp8()"><span class="box">MÁS INFO</span></button>
+                    </div>
+                </div>
+                <div id="card9">
+                    <img src="../ASSETS/IMGs/agua-estelar.jfif">
+                    <div id="desc">
+                        <h2>Agua estelar</h2>
+                        <h3>Hidrógeno cósmico, oxígeno cuántico, polvo de cometa y cristales de tiempo.</h3>
+                        <p>
+                            Hidratación del más allá con una mezcla de hidrógeno cósmico, oxígeno cuántico, polvo de cometa y cristales de tiempo. 
+                            Una bebida que revitaliza y refresca.
+                        </p>
+                        <button id="popupBtn" onclick="crearPopUp9()"> <span class="box">MÁS INFO</span></button>
+                    </div>
+                </div>
+                <div id="card10">
+                    <img src="../ASSETS/IMGs/coctel-galactico.jfif">
+                    <div id="desc">
+                        <h2>Cóctel galáctico</h2>
+                        <h3>Elixir de Quásar, esencia de agujero de gusano e hielo de cometa criogénico.</h3>
+                        <p>
+                            Nuestro elixir de Quásar, mezclado con esencia de agujero de gusano e hielo de cometa criogénico, 
+                            ofrece una bebida única que desafía las leyes del universo. 
+                            ¡Salud!
+                        </p>
+                        <button id="popupBtn" onclick="crearPopUp10()"> <span class="box">MÁS INFO</span></button>
+                    </div>
+                </div>
+            </div>
+            <div id="popups-container"></div>
+        </main>
+    </body>
+</html>
